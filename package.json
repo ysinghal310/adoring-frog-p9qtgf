@@ -31,6 +31,6 @@
   },
   "lint-staged": {
     "app/**/*.{ts,tsx,css}": "prettier --write",
-    "app/**/*.{ts,tsx}": "eslint"
+    "app/**/*.{ts,tsx}": "eslint . && eslint --fix ."
   }
 }
